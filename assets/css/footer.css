@@ -1,0 +1,113 @@
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Reavy Italic', sans-serif;
+    margin: 100px 0 20px 0;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.links{
+    margin: 40px 60px 0 60px;
+}
+.links h3{
+    color: #082f0a;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links a p{
+    color: #4b4b4b;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 650;
+}
+
+.links a p:hover{
+    text-decoration: underline;
+    color: #305431;
+}
+.borda{
+    width: 1200px;
+    border-bottom: #e0dcdc 1px solid;
+}
+
+.redesSociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 20px 10px 20px 10px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    
+}
+.redes a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.redesSociais p{
+    color: #4b4b4b;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 750;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.redesSociais a{
+    text-decoration: none;
+}
+
+.redesSociais p:hover{
+    color: #ffffff;
+    transition: 0.5s;
+    background-color: rgba(33, 81, 34, 0.8);
+    border-radius: 10px;
+}
+
+.direitos{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 50px 0 0 0;
+}
+.direitos p{
+    font-size: 14px;
+    font-family: 'Reavy italic';
+    color: #afafaf;
+    margin-left: 50px;
+}
+.politicas ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.politicas a{
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
